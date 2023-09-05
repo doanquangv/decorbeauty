@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../imagenoi/logo1.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phòng khách - Nội thất DecorBeauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Room.css">
+    <!-- <link rel="stylesheet" href="./base.css"> -->
+    <link rel="stylesheet" href="../themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+        <!-- Header -->
+                <!-- Header top-bar -->
+                <header class="header">
+                    <div class="grid ">
+                        <nav class="header__navbar hide-on-mobile ">
+                            <ul class="header__navbar-list hide-on-tablet">
+                                <li class="header__navbar-item hide-on">
+                                    <a href="" class="header__navbar-item-link1   "><img src="../imagenoi/covietnam.jpg" alt=""></a>  VN  </li>
+                                <li class="header__navbar-item">
+                                    <a href="" class="header__navbar-item-link" style="color: black;">
+                                        <b><i class="ti-mobile"></i>                              
+                                            1800 7200
+                                        </b>      
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item-color" ><a href="" class="header__navbar-item-link ">Giới thiệu </a> </li>
+                                <li class="header__navbar-item header__navbar-item-color"> <a href="" class="header__navbar-item-link ">Khuyến mãi</a> </li>
+                                <li class="header__navbar-item"> <a href="" class="header__navbar-item-link " style="color: red;">Giảm giá đặc biệt</a> </li>
+                            </ul>
+            
+                            <ul class="header__navbar-list hide-on-tablet">
+                                <li class="header__navbar-item"><a href="" class="header__navbar-item-link">
+                                    <i class="ti-location-pin header__navbar-item-color"></i>
+                                </a></li>
+                                <li class="header__navbar-item"><a href="" class="header__navbar-item-link">
+                                    <i class="ti-heart header__navbar-item-color font-icon"></i>
+                                </a></li>
+                                <li class="header__navbar-item"><a href="" class="header__navbar-item-link">
+                                    <i class="ti-bag header__navbar-item-color font-icon"></i>
+                                </a></li>
+                                <li class="header__navbar-item header__navbar-item-color"><a href="" class="header__navbar-item-link">
+                                    <a class="login-acc" href="#modal-login">Đăng nhập</a>
+                                    <i class="ti-user header__navbar-item-color font-icon"></i>          
+                                </a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-main"> 
+                            <div class="header-main-border">
+                                <div class="header-main__icon">
+                                    <a href="" class="header-main__icon-menu"><i class="ti-menu"></i></a>
+                                </div>
+                                <div class="header-main__logo">
+                                    <a href="../DecorBeauty.html"><img class="header-main__pic" src="../imagenoi/logo.png" alt="Nhà Xinh"></a>
+                                </div>
+                                <div class="header-main__list-intro hide-on-mobile ">
+                                    <ul class="header-main__list">
+                                        <li class="header-main__list-nav">
+                                            <a href="./Product.html" class="header-main__icon-menu">
+                                            SẢN PHẨM
+                                            <!-- <i class="ti-angle-down"></i> -->
+                                            </a>
+                                        </li>
+                                        <li class="header-main__list-nav" >
+                                         <a href="./Room.html" class="header-main__icon-menu">
+                                            PHÒNG
+                                            <!-- <i class="ti-angle-down"></i> -->
+                                        </a>
+                                            <ul class="room">
+                                                <li><a href="">Phòng khách</a></li>
+                                                <li><a href=""></a>Phòng ngủ</li>
+                                                <li><a href=""></a>Phòng ăn</li>
+                                                <li><a href=""></a>Phòng làm việc</li>
+                                                <li><a href=""></a>Tủ bếp</li>
+                                                <li><a href=""></a>Hàng trang trí</li>
+                                                <li><a href=""></a>Ngoại thất</li>
+                                            </ul>
+                                        </li>
+                                        <li class="header-main__list-nav" ><a href="./Collection.html" class="header-main__icon-menu">BỘ SƯU TẬP</a></li>
+                                        <li class="header-main__list-nav" ><a href="./Design.html" class="header-main__icon-menu">THIẾT KẾ NỘI THẤT</a></li>
+                                        <!-- <li class="header-main__list-nav" ><a href="" class="header-main__icon-menu">SHOWROOM ẢO</a></li> -->
+                                        <li class="header-main__list-nav" ><a href="./Inspiration.html" class="header-main__icon-menu">GÓC CẢM HỨNG</a></li>
+                                    </ul>
+                                </div>
+                                <div class="header-main__search">
+                                    <table class="header-main__search-box">
+                                         <tr>
+                                             <td>
+                                                <input type="text" placeholder="Tìm kiếm sản phẩm" class="search">
+                                             </td>
+                                             <td>
+                                                <a href="#" class="header-main__icon-menu">
+                                                 <i class="ti-search"></i> 
+                                                </a> 
+                                             </td>   
+                                         </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </header>
+                <!-- Content -->
+                <div class = "Room-main">
+                    <div class="room-img-text">
+                        <div class = "room-large-img">
+                            <img src="/DecorBeauty/imagenoi/spacejoy-x3mSC1WnWhc-unsplash.jpg" alt="" class = "Room1-img"/>
+                        </div>
+                        <div class = "room-large-text">
+                            <div class="room-text">
+                                <div class = "text-h1">
+                                    <h1 class="t-h1">Phòng khách</h1>
+                                </div>
+                                
+                                <div class="text-nav-a">
+                                    <nav class="text-nav-span">
+                                        <a href="/DecorBeauty/DecorBeauty.html" class="aaa">Trang chủ </a>
+                                        <span class="divider">/</span>
+                                        Phòng khách
+                                    </nav>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="item1">
+                        <div class="item1-1">
+                            <a href="#" class="an1"><b>Nội thất phòng khách</b> </a>
+                            <a href="#" class="an2"><b>Mẫu phòng khách</b> </a>
+                            <div class="sofa">
+                                <a href="" class="an">sofa</a>
+                                <a href="" class="an">sofa góc</a>
+                            </div>
+                            <div class="chair">
+                                <a href="#" class="an">ghế thư giãn </a>
+                                <a href="#" class="an">armchair </a>
+                                <a href="#" class="an">ghế dài & đôn</a>
+                            </div>
+                            <div class="table">
+                                <a href="#" class="an">Bàn nước</a>
+                                <a href="#" class="an">Bàn bên </a>
+                                <a href="#" class="an">Bàn Console </a>
+                                <a href="#" class="an">Tủ Tivi </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <img src="../imagenoi/room2.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Sắc màu độc lạ cho một mùa mới khác biệt</h5>
+                            <div class="text-p">
+                                <p>Nếu bạn đã quá quen thuộc với những bản màu mùa hè thường thấy hay những sắc trung tính quen [...]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2"> <img src="../imagenoi/room3.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Không gian đong đầy màu sắc tươi mới</h5>
+                            <div class="text-p">
+                                <p>Trong không khí chuyển mùa, bầu trời xanh trong hơn, màu nắng cũng thêm vàng, những đóa hoa càng rực [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room4.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách mang cảm hứng miền nhiệt đới</h5>
+                            <div class="text-p">
+                                <p>Với những sắc màu rực rớ trên nền xanh dịu mát lấy cảm hứng từ miền nhiệt đới. [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room5.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách hiện đại với tone màu xanh</h5>
+                            <div class="text-p">
+                                <p>Với chiếc sofa hiện đại mang sắc xanh dịu nhẹ, điểm nhấn bởi chân sắt đen giúp không gian luôn [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room6.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách gọn gàng cho không gian căn hộ</h5>
+                            <div class="text-p">
+                                <p>Với màu nâu nhẹ của sofa Dubai, phòng khách nổi bật với thiết kế gọn gàng, thanh lịch. [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room7.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa Maxine tone màu vàng ấm áp</h5>
+                            <div class="text-p">
+                                <p>Phòng khách hiện đại và sang trọng với  tone màu vàng sofa Maxine kết hợp armchair Coco [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room8.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa Maxine Chesterfield</h5>
+                            <div class="text-p">
+                                <p>Sofa Maxine Chesterfield tone màu nâu sẽ trở thành một điểm nhấn cho căn hộ của bạn [...]</p>
+                            </div>
+                        </div></div>  
+                    <div class="item2"> <img src="../imagenoi/room9.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa vải tone màu xám</h5>
+                            <div class="text-p">
+                                <p>Sofa góc bọc vải Eden tone màu nâu xám mang đến cảm giác sang trọng hiện đại và tinh tế [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room10.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa da sang trọng</h5>
+                            <div class="text-p">
+                                <p>Sắp xếp, làm mới lại không gian sống cũng là một trong những cách nhanh nhất mang đến cảm giác [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room11.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa poppy 3 chỗ vải vàng</h5>
+                            <div class="text-p">
+                                <p>Sofa 3 chỗ Poppy sẽ là một điểm nhấn thú vị trong không gian phòng khách, phòng sinh hoạt [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room12.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa góc Shadow êm ái</h5>
+                            <div class="text-p">
+                                <p>Sofa góc Shadow sẽ mang đến một cảm nhận mới về sự thoải mái của những chiếc ghế phòng khách. [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room13.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa góc Rumba nhỏ gọn tiện lợi</h5>
+                            <div class="text-p">
+                                <p>Chiếc sofa Rumba tiện lợi với phần góc - đôn linh hoạt di chuyển sẽ phù hợp với các phòng [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room14.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa góc Poppy vải xanh</h5>
+                            <div class="text-p">
+                                <p>Đổi gió với phòng khách tươi mát cùng sofa góc Poppy bọc vải xanh dương. [...]</p>
+                            </div>
+                        </div></div>
+                   <div class="item2"> <img src="../imagenoi/room15.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách màu hồng tươi tắn Penny</h5>
+                            <div class="text-p">
+                                <p>Phòng khách tràn đầy sức sống với sắc hồng tươi tắn từ sofa vải Penny cùng ghế armchair Garbo [...]</p>
+                            </div>
+                        </div></div> 
+                    <div class="item2"> <img src="../imagenoi/room16.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách hiện đại sofa góc Opal da đen</h5>
+                            <div class="text-p">
+                                <p>Phòng khách hiện đại, tone màu cơ bản với sofa góc Opal da đen sẽ không bao giờ lỗi mốt [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room17.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Bridge da Beige gỗ sồi nâu</h5>
+                            <div class="text-p">
+                                <p>Nét mộc mạc và sang trọng trong thiết kế Phòng khách Bridge da Beige gỗ sồi nâu vô cùng độc [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room18.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Bridge da cognac</h5>
+                            <div class="text-p">
+                                <p>Sự tinh tế và hoàn mỹ trong từng cm của BST Bridge với tone mà gỗ nâu và da cognac. [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room19.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách căn hộ Empire</h5>
+                            <div class="text-p">
+                                <p>Hình ảnh thực tế tại căn hộ mẫu nội thất Nhà Xinh tại dự án Empire city. Lấy cảm hứng [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room20.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách hiện đại da cognac Jazz</h5>
+                            <div class="text-p">
+                                <p>Với sofa Jazz làm điểm nhấn, màu da cognac hiện đại và thời thượng phối hợp cùng bàn nước và [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room21.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Mây nét Việt đương đại</h5>
+                            <div class="text-p">
+                                <p>Từ bộ sưu tập Mây được thiết kế và sản xuất bởi Nhà Xinh, Phòng khách Mây vẫn giữ tinh [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room22.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa góc Poppy nét trẻ trung hiện đại</h5>
+                            <div class="text-p">
+                                <p>Nếu bạn thuộc tuýp người ưa thích sự trẻ trung và năng động, thích những tone màu tươi tắn và [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room23.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Victoria</h5>
+                            <div class="text-p">
+                                <p>Với nguồn cảm hứng chính từ các chi tiết chạm khắc của nội thất, mỹ thuật thời Victoria, bộ sưu [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room24.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Pop sang trọng và lịch thiệp</h5>
+                            <div class="text-p">
+                                <p>Phòng khách bộ sưu tập Pop với diện mạo trầm ấm từ màu gỗ nâu và da bò cao cấp [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room25.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Pio năng động hiện đại</h5>
+                            <div class="text-p">
+                                <p>Phong cách hiện đại và năng động cùng tone màu xanh trắng trung tính hài hòa giúp bạn dễ chịu [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room26.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Elegance thanh lịch và tinh tế</h5>
+                            <div class="text-p">
+                                <p>Chuộng phong cách thanh lịch tinh tế thì bạn không nên bỏ qua phòng khách Elegance. Với thiết kế tinh [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room27.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách hiện đại Porto</h5>
+                            <div class="text-p">
+                                <p>Sofa da màu kem với tay vịn êm ái, bàn nước mặt gỗ và armchair nệm vải khung kim loại [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room28.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Maxine nét đẹp hiện đại</h5>
+                            <div class="text-p">
+                                <p>Đó là những khoảnh khắc với sofa Maxine hiện đại kết hợp với kim loại mạ gold [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room29.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Maxine nét đẹp hiện đại</h5>
+                            <div class="text-p">
+                                <p>Đó là những khoảnh khắc với sofa Maxine hiện đại kết hợp với kim loại mạ gold [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room30.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách Miami hiện đại nhỏ gọn</h5>
+                            <div class="text-p">
+                                <p>Khác với những chiếc ghế sofa to lớn cồng kênh, Miami được thiết kế nhỏ gọn và thoải mái cho [...]</p>
+                            </div>
+                        </div></div>
+                    <div class="item2"> <img src="../imagenoi/room31.png" class="carousel-img"  >
+                        <div class="text">
+                            <h5>Phòng khách sofa Miami nhỏ gọn màu xanh dương</h5>
+                            <div class="text-p">
+                                <p>Khác với những chiếc ghế sofa to lớn cồng kênh, Miami được thiết kế nhỏ gọn và thoải mái cho [...]</p>
+                            </div>
+                        </div></div>
+                  </div>
+                  <div class="see-touch">
+                    <div class="see">
+                        <img src="https://nhaxinh.com/wp-content/uploads/2021/11/cua-hang-nha-xinh-191121-1400x690.jpg" alt="" class="see-img"></img>
+                            <div class="see-text">
+                                <h3>Xem, chạm và cảm nhận</h3>
+                            </div>   
+                            <div class="button-see">
+                                    <span>Tìm cửa hàng</span>
+                            </div>
+                    </div>
+                </div>
+                
+               <!-- footer -->
+                <footer>
+                    <div class="footer__content">
+                        <div class="rown">
+                          <div class="col-1">
+                                <img src="../imagenoi/logo.png" alt="" class="col-img"></img>
+                          <p class="follow">FOLLOW US</p>
+                            <p class="follow-1">
+                            <i class="ti-youtube"></i>
+                            <i class="ti-instagram"></i>
+                            <i class="ti-facebook"></i>
+                            </p>
+                            <div>    
+                                <span class="col-1__footer"> Tìm cửa hàng </span>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <ul class="new-list">
+                                <li><a href="#" class="nhaxau nhaxau1">
+                                    VỀ NHÀ XINH
+                                </a></li>
+                                <li><a href="#" class="nhaxau nhaxau2">Tin tức</a></li>
+                                <li><a href="#" class="nhaxau nhaxau2">Tổng công ty</a></li>
+                                <li><a href="#" class="nhaxau nhaxau2">Tuyển dụng</a></li>
+                                <li><a href="#" class="nhaxau nhaxau2">Thẻ hội viên</a></li>
+                                <li><a href="#" class="nhaxau nhaxau3">Phiếu quà tặng</a></li>
+                                <li><a href="#" class="nhaxau nhaxau3">Giao hàng</a></li>
+                                <li><a href="#" class="nhaxau nhaxau3">Bảo hành</a></li> 
+                                <li><a href="#" class="nhaxau nhaxau3">Bán hàng online</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-3">
+                            <div class="nhaxinh">
+                                <ul class="product-idea">
+                                    <span class="great-house">CẢM HỨNG #NHAXINH</span>
+                                    <li class="toan"><a href="#" class="feelling">Sản phẩm</a></li>
+                                    <li class="toan"><a href="#" class="feelling"> Ý tường và cảm hứng </a></li>
+                                </ul>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <ul class="NEWSLETTER">
+                                <li><a href="#" class="nhaxau nhaxau1">
+                                    NEWSLETTER
+                                </a></li>
+                                <li><a href="#" class="nhaxau nhaxau2">Hãy để lại email của bạn để nhận được những ý tưởng trang trí mới và những thông tin, ưu đãi từ Nhà Xinh</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="copyright-footer">
+                        <p>© 2021 - Bản quyền của Nhà Xinh</p>
+                        <p>Từ năm 1999 - thương hiệu đăng ký số 284074 Cục sở hữu trí tuệ</p>
+                    </div>
+                    
+                </footer>
+    </div>
+</body>
+</html>

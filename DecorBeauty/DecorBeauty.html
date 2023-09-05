@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <link rel="icon" href="./imagenoi/logo1.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecorBeauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <link rel="stylesheet" href="./DecorBeauty.css">
+    <div id="main">
+<!-- Header -->
+        <!-- Header top-bar -->
+        <header class="header">
+            <div class="grid ">
+                <nav class="header__navbar hide-on-mobile ">
+                    <ul class="header__navbar-list hide-on-tablet">
+                        <li class="header__navbar-item hide-on">
+                            <a href="" class="header__navbar-item-link1   "><img src="./imagenoi/covietnam.jpg" alt=""></a>  VN  </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link" style="color: black;">
+                                <b><i class="ti-mobile"></i>                              
+                                    1800 7200
+                                </b>      
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-color" ><a href="../DecorBeauty/Header/introduce.html" class="header__navbar-item-link ">Giới thiệu </a> </li>
+                        <li class="header__navbar-item header__navbar-item-color"> <a href="../DecorBeauty/Header/Promotion.html" class="header__navbar-item-link ">Khuyến mãi</a> </li>
+                        <li class="header__navbar-item"> <a href="./Header/discount.html" class="header__navbar-item-link " style="color: red;">Giảm giá đặc biệt</a> </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list hide-on-tablet">
+                        <li class="header__navbar-item"><a href="" class="header__navbar-item-link">
+                            <i class="ti-location-pin header__navbar-item-color"></i>
+                        </a></li>
+                        <li class="header__navbar-item"><a href="" class="header__navbar-item-link">
+                            <i class="ti-heart header__navbar-item-color font-icon"></i>
+                        </a></li>
+                        <li class="header__navbar-item"><a href="" class="header__navbar-item-link">
+                            <i class="ti-bag header__navbar-item-color font-icon"></i>
+                        </a></li>
+                        <li class="header__navbar-item header__navbar-item-color"><a href="" class="header__navbar-item-link">
+                            <a class="login-acc" href="#modal-login">Đăng nhập</a>
+                            <i class="ti-user header__navbar-item-color font-icon"></i>          
+                        </a></li>
+                    </ul>
+                </nav>
+                <div class="header-main"> 
+                    <div class="header-main-border">
+                        <div class="header-main__icon">
+                            <a href="" class="header-main__icon-menu"><i class="ti-menu"></i></a>
+                        </div>
+                        <div class="header-main__logo">
+                            <a href=""><img class="header-main__pic" src="./imagenoi/logo.png" alt="Nhà Xinh"></a>
+                        </div>
+                        <div class="header-main__list-intro hide-on-mobile ">
+                            <ul class="header-main__list">
+                                <li class="header-main__list-nav">
+                                    <a href="./cate/Product.html" class="header-main__icon-menu">
+                                    SẢN PHẨM
+                                    <!-- <i class="ti-angle-down"></i> -->
+                                    </a>
+                                </li>
+                                <li class="header-main__list-nav" >
+                                 <a href="./cate/Room.html" class="header-main__icon-menu">
+                                    PHÒNG
+                                    <!-- <i class="ti-angle-down"></i> -->
+                                </a>
+                                    <ul class="room">
+                                        <li><a href="">Phòng khách</a></li>
+                                        <li><a href=""></a>Phòng ngủ</li>
+                                        <li><a href=""></a>Phòng ăn</li>
+                                        <li><a href=""></a>Phòng làm việc</li>
+                                        <li><a href=""></a>Tủ bếp</li>
+                                        <li><a href=""></a>Hàng trang trí</li>
+                                        <li><a href=""></a>Ngoại thất</li>
+                                    </ul>
+                                </li>
+                                <li class="header-main__list-nav" ><a href="./cate/Collection.html" class="header-main__icon-menu">BỘ SƯU TẬP</a></li>
+                                <li class="header-main__list-nav" ><a href="./cate/Design.html" class="header-main__icon-menu">THIẾT KẾ NỘI THẤT</a></li>
+                                <!-- <li class="header-main__list-nav" ><a href="" class="header-main__icon-menu">SHOWROOM ẢO</a></li> -->
+                                <li class="header-main__list-nav" ><a href="./cate/Inspiration.html" class="header-main__icon-menu">GÓC CẢM HỨNG</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-main__search">
+                            <table class="header-main__search-box">
+                                 <tr>
+                                     <td>
+                                        <input type="text" placeholder="Tìm kiếm sản phẩm" class="search">
+                                       
+                                     </td>
+                                     <td>
+                                        <a href="#" class="header-main__icon-menu">
+                                         <i class="ti-search"></i> 
+                                        </a> 
+                                     </td>   
+                                 </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal">
+                <div class="modal__inner" id="modal-login">
+                            <!-- Authen form-->
+                            <div class="auth-form" >
+                                <div ><a class="close" href="#">X</a></div>
+                                <!--đăng nhap-->
+                                <div class="auth-form__container">
+                                    <div class="auth-form__head">
+                                        <span class="auth-form__switch-btn">ĐĂNG NHẬP</span>
+                                    </div>
+                                    <div class="auth-form__form">
+                                        <div class="auth-form__group">
+                                            <h3>Tên đăng nhập hoặc hoặc địa chỉ email</h3>
+                                            <input type="text" class="auth-form__input" placeholder="Tên đăng nhập ">
+                                        </div>
+                                        <div class="auth-form__group">
+                                            <h3>Mật khẩu</h3>
+                                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                        </div>
+                                    </div>
+                                    <div class="auth-form__controls">
+                                        <button class="btn1"></button>
+                                        <span>Lưu thông tin đăng nhập</span>
+                                    </div>
+                                    <div class="auth-form__controls2">
+                                        <span class="auth-form__2">ĐĂNG NHẬP</span>
+                                    </div>
+                                    <div class="auth-form__controls3">
+                                        <a href="" class="auth-form__21">Quên mật khẩu?</a>
+                                    </div>
+                                    <div class="auth-form__socials">
+                                    <a href="" class="btn btn--with-icon">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                    <a href="" class="btn btn--with-icon">
+                                        <i class="ti-google"></i>
+                                    </a>
+                                    <a href="" class="btn btn--with-icon">
+                                        <i class="ti-instagram"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                                <!--Đăng ký-->
+                                <div class="auth-form__contaier1">
+                                    <div class="auth-form__head">
+                                        <span class="auth-form__switch-btn">ĐĂNG KÝ</span>
+                                    </div>
+                                    <div class="auth-form__group">
+                                        <h3>Số điện thoại & địa chỉ email</h3>
+                                        <input type="text" class="auth-form__input">
+                                    </div>
+                                    <div class="btn4">
+                                        <p class="btn2">Mật khẩu mới sẽ được gửi tới email của bạn.</p>
+                                        <p class="btn3">Dữ liệu cá nhân của bạn sẽ được sử dụng để hỗ trợ trải nghiệm của bạn trên toàn bộ trang web này, để quản lý quyền truy cập vào tài khoản của bạn và cho các mục đích khác được mô tả trong chính sách bảo mật của chúng tôi.</p>
+                                    </div>
+                                    <div class="auth-form__controls2">
+                                        <span class="auth-form__2">ĐĂNG KÝ</span>
+                                    </div>
+                                </div>
+                            </div>   
+                     </div>
+            </div>
+        </header>
+        <!-- Content -->
+        <div class="container">
+            <div class="container__slider container__slider-mobile">
+                <div class="container__slider-subnav">
+                    <div class="container__slider-text container__slider-text">
+                        <h2 class="text-heading ">KHÔNG GIAN MIỀN <br> NHIỆT ĐỚI <br></h2>
+                    </div>
+                    <button class="button-btn"><a href="./cate/Room.html">XEM THÊM</a></button>
+                </div>
+             </div>
+            <div class="container__info">
+                <div class="post__item">
+                    <div class="post-list1">
+                        <div class ="post-item1">
+                            <div> <img src="https://nhaxinh.com/wp-content/uploads/2022/03/phong-khach-nha-xinh-cam-hung-18-3-22.jpg" alt="" class="post_image1 img-zoom " /> </div>
+                        </div>
+                        <div class="post-item2">
+                            <div class="post-item2s">
+                                <div class="post-item2s-list">
+                                    <div class="post-item2s1">
+                                        <h3 class="post-title">Không gian <br> phòng khách</h3>
+                                        <p class="post-desc">Phòng khách là không gian chính của ngôi<br> nhà, là nơi sum họp gia đình</p>
+                                        <a href="./cate/Room.html" class="post_category">MẪU THIẾT KẾ
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="post-item2s2">
+                                        <h3 class="post-title">Đồ trang trí</h3>
+                                        <p class="post-desc">Mang lại những nguồn cảm hứng <br>và  nét sinh động cho không gian</p>
+                                        <a href="./cate/Room.html" class="post_category">
+                                            KHÁM PHÁ
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-item2s-img">
+                                    <div ><img src="https://nhaxinh.com/wp-content/uploads/2022/01/nha-xinh-do-trang-tri-25122-chinh.jpg" alt="" class="post_image2 img-zoom"/> </div>
+                                </div>
+                            </div>
+                    </div>         
+                    </div>
+                    <div class="post-list2">
+                        <div class="post-item3">
+                            <div class="post-item3s1">
+                                <div><img src="https://nhaxinh.com/wp-content/uploads/2022/01/nha-xinh-phong-ngu-bannerchinh-10121.jpg" alt="" class="post_image3 img-zoom"/></div>
+                            </div>
+                            <div class="post-item3s2">
+                                <h3 class="post-title">Không <br> gian <br> phòng <br> ngủ <br></h3>
+                                <p class="post-desc">Những mẫu phòng ngủ<br> của Nhà Xinh mang đến <br> cảm giác ấm cúng, gần <br> gũi và thoải mái</p>
+                                <a href="./cate/Room.html" class="post_category">
+                                    MẪU PHÒNG NGỦ
+                                    <i class="ti-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="post-item4">
+                            <div class="post-item4s1">   
+                                <div><img src="https://nhaxinh.com/wp-content/uploads/2022/01/nha-xinh-phong-an-chinh-banner-25122.jpg" alt="" class="post_image4 img-zoom"/></div>
+                            <div class="post-item4s2">
+                                <h3 class="post-title">Không gian phòng ăn</h3>
+                                <p class="post-desc">Một bữa ăn ngon luôn là mong ước của mỗi gia đình. Không gian phòng ăn <br> đóng vai trò rất quan trọng trong văn hóa Việt</p>
+                                <a href="./cate/Room.html" class="post_category">
+                                    MẪU PHÒNG ĂN
+                                    <i class="ti-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>   
+             </div>  
+             <!-- List Products -->
+            <div class="product">
+                <div class="conver">
+                    <div class="conver__puma">SẢN PHẨM MỚI</div>
+                    
+                        <div class = "view-all"><a href="./cate/Product.html" class="conver__nike">
+                        Xem tất cả
+                        <i class="ti-angle-right"></i> 
+                            </a> 
+                        </div>
+                    
+                </div>
+                <div class="border-container">
+                <div class="grid-container responsive">
+                    <!--Glam hong-->
+                    <div class="box-image">
+                         <div class="in-image">
+                           <a href="clickproduct/Glamh.html" class=""> <img src="imagenoi/Glamh.png" class="img-products-intro" onmouseover="this.src='imagenoi/Glamh1.png'" onmouseout="this.src='imagenoi/Glamh.png'" /></a>
+                         </div>
+                         <!--phần tên giá-->
+                         <div class="title">
+                    
+                                 <div class="in-title">
+                                     <a href="#" class="font">Bàn nước Glam hồng</a>
+                                 </div>
+                                 <div class="like">
+                                    <a>
+                                        <i class="ti-heart">
+                                       </i>
+                                    </a>
+                                 </div>
+                                 <div class="money">
+                                     <span>19,540,000đ</span>
+                                 </div>
+                             
+                         </div>
+                         <div class="end">
+                            <div>
+                                <button>
+                               <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                            </button>
+                            </div>
+                            <div >
+                                <button>
+                               <a class="end__right" href="">XEM THÊM </a>
+                            </button>
+                            </div>
+                         </div>
+                    </div>
+                    <!--Glam xanh duong-->
+                    <div class="box-image">
+                        <div class="in-image">
+                           <img src="imagenoi/glamx.png" class="img-products-intro" onmouseover="this.src='imagenoi/glamx1.png'" onmouseout="this.src='imagenoi/glamx.png'" />
+                        </div>
+                        <!--phần tên giá-->
+                        <div class="title">
+                             <div class="in-title">
+                                 <a href="#" class="font">Bàn nước Glam xanh dương</a>
+                             </div>
+                             <div class="like">
+                                <a>
+                                    <i class="ti-heart">
+                                   </i>
+                                </a>
+                             </div>
+                             <div class="money">
+                                 <span>19,540,000đ</span>
+                             </div>
+                        </div>
+                        <div class="end">
+                           <div>
+                               <button>
+                              <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                           </button>
+                           </div>
+                           <div >
+                               <button>
+                              <a class="end__right" href="">XEM THÊM </a>
+                           </button>
+                           </div>
+                        </div>
+                   </div>
+                    <!--Bàn bên glam hồng-->
+                    <div class="box-image">
+                        <div class="in-image">
+                           <img src="imagenoi/Glamh2.png" class="img-products-intro" onmouseover="this.src='imagenoi/Glamh3.png'" onmouseout="this.src='imagenoi/Glamh2.png'" />
+                        </div>
+                        <!--phần tên giá-->
+                        <div class="title">
+                             <div class="in-title">
+                                 <a href="#" class="font">Bàn bên Glam hồng </a>
+                             </div>
+                             <div class="like">
+                                <a>
+                                    <i class="ti-heart">
+                                   </i>
+                                </a>
+                             </div>
+                             <div class="money">
+                                 <span>10,800,000</span>
+                             </div>
+                        </div>
+                        <div class="end">
+                           <div>
+                               <button>
+                              <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                           </button>
+                           </div>
+                           <div >
+                               <button>
+                              <a class="end__right" href="">XEM THÊM </a>
+                           </button>
+                           </div>
+                        </div>
+                   </div>
+                   <!--Ban ben Glam xanh-->
+                   <div class="box-image">
+                    <div class="in-image">
+                       <img src="imagenoi/Glamx2.png" class="img-products-intro" onmouseover="this.src='imagenoi/Glamx3.png'" onmouseout="this.src='imagenoi/Glamx2.png'" />
+                    </div>
+                    <!--phần tên giá-->
+                    <div class="title">
+                         <div class="in-title">
+                             <a href="#" class="font">Bàn bên Glam xanh</a>
+                         </div>
+                         <div class="like">
+                            <a>
+                                <i class="ti-heart">
+                               </i>
+                            </a>
+                         </div>
+                         <div class="money">
+                             <span>10,800,000đ</span>
+                         </div>
+                    </div>
+                    <div class="end">
+                       <div>
+                           <button>
+                          <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                       </button>
+                       </div>
+                       <div >
+                           <button>
+                          <a class="end__right" href="">XEM THÊM </a>
+                       </button>
+                       </div>
+                    </div>
+                    </div>
+                    <!--Bàn nước Elegance màu đen-->
+                     <div class="box-image">
+                        <div class="in-image">
+                           <img src="imagenoi/e4.png" class="img-products-intro" onmouseover="this.src='imagenoi/e2.png'" onmouseout="this.src='imagenoi/e4.png'" />
+                        </div>
+                        <!--phần tên giá-->
+                         <div class="title">
+                             <div class="in-title">
+                                 <a href="#" class="font">Bàn nước Elegance màu</a>
+                             </div>
+                             <div class="like">
+                                <a>
+                                    <i class="ti-heart">
+                                   </i>
+                                </a>
+                             </div>
+                             <div class="money">
+                                 <span>23,330,000đ</span>
+                             </div>
+                        </div>
+                        <div class="end">
+                           <div>
+                               <button>
+                              <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                           </button>
+                           </div>
+                           <div >
+                               <button>
+                              <a class="end__right" href="">XEM THÊM </a>
+                           </button>
+                           </div>
+                        </div>
+                   </div>
+                   <!--Bàn ăn -->
+                   <div class="box-image">
+                    <div class="in-image">
+                       <img src="imagenoi/e1.png" class="img-products-intro" onmouseover="this.src='imagenoi/e3.png'" onmouseout="this.src='imagenoi/e1.png'" />
+                    </div>
+                    <!--phần tên giá-->
+                     <div class="title">
+                         <div class="in-title">
+                             <a href="#" class="font">Bàn uống nước</a>
+                         </div>
+                         <div class="like">
+                            <a>
+                                <i class="ti-heart">
+                               </i>
+                            </a>
+                         </div>
+                         <div class="money">
+                             <span>49,250,000đ</span>
+                         </div>
+                    </div>
+                    <div class="end">
+                       <div>
+                           <button>
+                          <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                       </button>
+                       </div>
+                       <div >
+                           <button>
+                          <a class="end__right" href="">XEM THÊM </a>
+                       </button>
+                       </div>
+                    </div>
+                    </div>
+                    <!--ghế ăn có tay elence màu tự nhiên -->
+                     <div class="box-image">
+                        <div class="in-image">
+                           <img src="imagenoi/e5.png" class="img-products-intro" onmouseover="this.src='imagenoi/e6.png'" onmouseout="this.src='imagenoi/e5.png'" />
+                        </div>
+                        <!--phần tên giá-->
+                         <div class="title">
+                             <div class="in-title">
+                                 <a href="#" class="font">Ghế ăn có tay elence màu tự nhiên</a>
+                             </div>
+                             <div class="like">
+                                <a>
+                                    <i class="ti-heart">
+                                   </i>
+                                </a>
+                             </div>
+                             <div class="money">
+                                 <span>17,070,000đ</span>
+                             </div>
+                        </div>
+                        <div class="end">
+                           <div>
+                               <button>
+                              <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                           </button>
+                           </div>
+                           <div >
+                               <button>
+                              <a class="end__right" href="">XEM THÊM </a>
+                           </button>
+                           </div>
+                        </div>
+                    </div>
+                    <!--Sofa 3 chỗ elence màu xanh dương -->
+                     <div class="box-image">
+                        <div class="in-image">
+                           <img src="imagenoi/e7.png" class="img-products-intro" onmouseover="this.src='imagenoi/e8.png'" onmouseout="this.src='imagenoi/e7.png'" />
+                        </div>
+                        <!--phần tên giá-->
+                         <div class="title">
+                             <div class="in-title">
+                                 <a href="#" class="font">Sofa 3 chỗ elence màu xanh dương</a>
+                             </div>
+                             <div class="like">
+                                <a>
+                                    <i class="ti-heart">
+                                   </i>
+                                </a>
+                             </div>
+                             <div class="money">
+                                 <span>118,310,000đ</span>
+                             </div>
+                        </div>
+                        <div class="end">
+                           <div>
+                               <button>
+                              <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                           </button>
+                           </div>
+                           <div >
+                               <button>
+                              <a class="end__right" href="">XEM THÊM </a>
+                           </button>
+                           </div>
+                        </div>
+                        </div>
+                        <div class="box-image">
+                            <!--bộ bàn ăn tristan belfast 6 chỗ vải đỏ-->
+                            <div class="in-image">
+                               <img src="imagenoi/h1.png" class="img-products-intro" onmouseover="this.src='imagenoi/h2.png'" onmouseout="this.src='imagenoi/h1.png'" />
+                            </div>
+                            <!--phần tên giá-->
+                            <div class="title">
+                                 <div class="title-inline">
+                                     <div class="in-title">
+                                         <a href="#" class="font">Bộ bàn ăn tristan belfast 6 chỗ vải đỏ</a>
+                                     </div>
+                                     <div class="like">
+                                        <a>
+                                            <i class="ti-heart">
+                                           </i>
+                                        </a>
+                                     </div>
+                                 </div>
+                                 <div  class="money">
+                                     <span>22,540,000đ</span>
+                                 </div>
+                            </div>
+                            <div class="end">
+                               <div>
+                                   <button>
+                                  <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                               </button>
+                               </div>
+                               <div >
+                                   <button>
+                                  <a class="end__right" href="">XEM THÊM </a>
+                               </button>
+                               </div>
+                            </div>
+                       </div>
+                       <!--sofa góc trái shawdom-->
+                       <div class="box-image">
+                           <div class="in-image">
+                              <img src="imagenoi/h3.png" class="img-products-intro" onmouseover="this.src='imagenoi/h4.png'" onmouseout="this.src='imagenoi/h3.png'" />
+                           </div>
+                           <!--phần tên giá-->
+                           <div class="title">
+                                <div class="in-title">
+                                    <a href="#" class="font">sofa góc trái shadom hiện đại</a>
+                                </div>
+                                <div class="like">
+                                   <a>
+                                       <i class="ti-heart">
+                                      </i>
+                                   </a>
+                                </div>
+                                <div class="money">
+                                    <span>29,340,000đ</span>
+                                </div>
+                           </div>
+                           <div class="end">
+                              <div>
+                                  <button>
+                                 <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                              </button>
+                              </div>
+                              <div >
+                                  <button>
+                                 <a class="end__right" href="">XEM THÊM </a>
+                              </button>
+                              </div>
+                           </div>
+                      </div>
+                       <!--armchair moon vải trắng-->
+                       <div class="box-image">
+                           <div class="in-image">
+                              <img src="imagenoi/h5.png" class="img-products-intro" onmouseover="this.src='imagenoi/h6.png'" onmouseout="this.src='imagenoi/h5.png'" />
+                           </div>
+                           <!--phần tên giá-->
+                           <div class="title">
+                                <div class="in-title">
+                                    <a href="#" class="font">armchair moon vải trắng </a>
+                                </div>
+                                <div class="like">
+                                   <a>
+                                       <i class="ti-heart">
+                                      </i>
+                                   </a>
+                                </div>
+                                <div class="money">
+                                    <span>10,800,000đ</span>
+                                </div>
+                           </div>
+                           <div class="end">
+                              <div>
+                                  <button>
+                                 <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                              </button>
+                              </div>
+                              <div >
+                                  <button>
+                                 <a class="end__right" href="">XEM THÊM </a>
+                              </button>
+                              </div>
+                           </div>
+                      </div>
+                      <!--sofa moon 2 chỗ vải mb hồng--> 
+                      <div class="box-image">
+                         <div class="in-image">
+                          <img src="imagenoi/h7.png" class="img-products-intro" onmouseover="this.src='imagenoi/h8.png'" onmouseout="this.src='imagenoi/h7.png'" />
+                       </div>
+                       <!--phần tên giá-->
+                       <div class="title">
+                            <div class="in-title">
+                                <a href="#" class="font">sofa moon 2 chỗ vải mb hồng</a>
+                            </div>
+                            <div class="like">
+                               <a>
+                                   <i class="ti-heart">
+                                  </i>
+                               </a>
+                            </div>
+                            <div class="money">
+                                <span>17,580,000đ</span>
+                            </div>
+                       </div>
+                       <div class="end">
+                          <div>
+                              <button>
+                             <a class="end__left" href="">THÊM VÀO GIỎ</a>
+                          </button>
+                          </div>
+                          <div >
+                              <button>
+                             <a class="end__right" href="">XEM THÊM </a>
+                          </button>
+                          </div>
+                       </div>
+                       </div>
+                
+                </div>
+                
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                  <script type="text/javascript">
+                     $('.responsive').slick({
+                       slidesToShow: 4,
+                       slidesToScroll: 4,
+    
+                        prevArrow:"<button type='button' class='slick-prev slick-arrow'><i class='ti-angle-left' aria-hidden='true'></i></button>",
+                        nextArrow:"<button type='button' class='slick-next slick-arrow'><i class='ti-angle-right' aria-hidden='true'></i></button>"
+                       });
+                     var filtered = false;
+                     $('.js-filter').on('click', function(){
+                        if (filtered === false) {
+                         $('.filtering').slick('slickFilter',':even');
+                         $(this).text('Unfilter Slides');
+                        filtered = true;
+
+                       } else {
+                         $('.filtering').slick('slickUnfilter');
+                         $(this).text('Filter Slides');
+                         filtered = false;
+                       }
+                     });
+                 </script>
+            </div>              
+            </div>
+           <div class="container__slider-bottom">
+               <div class="container-slider-img">
+                   <div>
+                       <img src="https://nhaxinh.com/wp-content/uploads/2022/01/nha-xinh-ban-an-gia-tot-10122-1232x800.jpg" alt="" class="img-zoom">
+                    </div>
+                </div>
+                <div class="container__slider-bottom-border ">
+                    <!-- <div class="container__desc"> -->
+                        <h2 class="text-heading1">BỘ BÀN ĂN GIÁ TỐT</h2>
+                        <p class="text-price">
+                            Chỉ 22,900,000vnd gồm 1 bàn và 6 ghế
+                        </p>
+                        <button class="button-btn1">
+                           <a href="">MUA NGAY</a>
+                        </button>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="container__design">
+               <div class="design-img1">
+                    <div><img src="https://nhaxinh.com/wp-content/uploads/2021/11/banner-thiet-ke-noi-that-011121.jpg" alt="" class="post-img1 img-zoom"></div>
+               </div>
+               <div class="design-text">
+                   <div class="design-text-h3">        
+                       <h3>Thiết kế nội thất</h3>
+                   </div>
+                   <div class="design-text-p">
+                       <p>Quý khách có thể gặp đội ngũ tư vấn thiết kế chuyên nghiệp để được hướng dẫn hay tư vấn giúp quý khách hàng thực hiện trọn vẹn ý thích của mình.</p>
+                   </div>
+                   <div>
+                    <button class="button-bottom">
+                       <a href="Design.html">XEM NGAY</a> 
+                    </button>
+                </div>
+               </div>
+               <div class="design-img2 ">
+                   <div>
+                       <img src="https://nhaxinh.com/wp-content/uploads/2021/11/banner-thiet-ket-noi-that-new.jpg" alt="" class="post-img2 img-zoom">
+                    </div>
+               </div>
+              
+            </div>
+            <!--Goc cam hung-->
+            <div class="inspiration">
+                <div class="inspiration-text">
+                    <h3 class="inspiration-text-h3">
+                        <span class="inspiration-text-sp">Góc cảm hứng</span>
+                    </h3>
+                </div>
+            </div>       
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <img src="https://nhaxinh.com/wp-content/uploads/2021/10/ke-sach-hien-dai-gamma.jpg " class="carousel-img" style="width:100%">
+                    <div class="text">
+                        <h5>5 ý tưởng lắp đầy những khoảng trống cho căn phòng của bạn</h5>
+                        <div class="text-p">
+                            <p>Sắp xếp, làm mới lại không gian sống cũng là một trong những cách nhanh nhất mang đến cảm giác [...]</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mySlides fade">
+                    <img src="https://nhaxinh.com/wp-content/uploads/2022/02/phong-ngu-giuong-hoc-keo-iris-5-1200x800.jpg " class="carousel-img" style="width:100%">
+                    <div class="text">
+                        <h5>Sản phẩm giá tốt </h5>
+                        <div class="text-p">
+                            <p>Lựa chọn các sản phẩm đẹp giá tốt [..]</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mySlides fade">
+                    <img src="https://nhaxinh.com/wp-content/uploads/2022/02/sofa-poppy-xanh-7.jpg "  alt="Anh" class="carousel-img" style="width:100%">
+                    <div class="text">
+                        <h5>Trang hoàng phòng khách đón mùa mới </h5>
+                        <div class="text-p">
+                            <p>Sắp xếp, làm mới không gian sống cũng là một trong những cách nhanh nhất mang đến cảm giác [...]</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mySlides fade">
+                    <img src="https://nhaxinh.com/wp-content/uploads/2021/12/bo-suu-tap-mau-moi-fermob-1.jpg " class="carousel-img" style="width:100%">
+                    <div class="text">
+                        <h5>VẺ ĐẸP CUỐN HÚT TỪ SẮC MÀU MỚI FERMOB</h5>
+                        <div class="text-p">
+                            <p>Vẻ đẹp cuốn hút từ sắc màu mới Fermob [...] </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mySlides fade">
+                    <img src="https://nhaxinh.com/wp-content/uploads/2022/04/phong-khach-imprire-city-dep.jpg " class="carousel-img" style="width:100%">
+                    <div class="text">
+                        <h5>5 GỢI Ý THIẾT KẾ NỘI THẤT HIỆN ĐẠI SANG TRỌNG CHO CĂN HỘ</h5>
+                        <div class="text-p">
+                            <p>5 gợi ý thiết kế nội thất hiện đại sang trọng cho căn hộ chung cư cao cấp, phong cách [...] </p>
+                        </div>   
+                    </div>
+                    </div>
+                    <div class="mySlides fade">
+                    <img src="https://nhaxinh.com/wp-content/uploads/2021/10/nha-xinh-phong-khach-hien-dai-poppy-311021-1200x800.jpg " class="carousel-img" style="width:100%">
+                    <div class="text">
+                        <h5>5 mẫu sofa trưng đâu cũng đẹp</h5>
+                        <div class="text-p">
+                            <p>Cách nhanh nhất để thay đổi không gian nội thất chính là tạo ra điểm nhấn, hãy chọn cho minh [...]</p>
+                        </div> 
+                    </div>
+                    </div>     
+                    <!-- Next and previous buttons -->
+                    <a class="prev click-move" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next click-move" onclick="plusSlides(1)">&#10095;</a>    
+            </div>
+            <br>         
+            <!-- The dots/circles -->
+                <!-- <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>                                     
+                    <span class="dot" onclick="currentSlide(6)"></span>                   
+                </div> -->
+            <!--home-support-->
+            <div class="home-support">
+                <div class="home">
+                    <div class="home-img">
+                        <img src="imagenoi/spacejoy-x3mSC1WnWhc-unsplash.jpg" alt="" class="home-img1">
+                    </div>
+                    <div class="home-text">
+                        <h3>
+                            <strong class="str">Tổ ấm của người tinh tế</strong>
+                        </h3>
+                        <p>
+                            Trong suốt hơn 22 năm qua, cảm hứng từ gu thẩm mỹ tinh tế và <br> tinh thần “Việt” đã giúp Nhà Xinh tạo ra những thiết kế độc đáo,<br> hợp thời và chất lượng. Nhà Xinh hiện đã mở 9 showroom tại<br> Việt Nam.
+                        </p>
+                        <button class="home-button">
+                            <span>VỀ NHÀ XINH</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="support">
+                    <div class="support1">
+                        <div class="hotline ">
+                              <i class="ti-mobile"></i>
+                          <a>HOTLINE:1800 7200</a>
+                        </div>
+                        <div class="ho-tro">
+                          <h3>Bạn cần hỗ trợ ?</h3>
+                          <p>Xin vui lòng để lại yêu cầu hỗ trợ của bạn.</p>
+                        </div>
+                        <div class="help-me">
+                          <!--họ tên và số điện thoại-->
+                          <div class="help1">
+                            <form class="phone-2">
+                              <input type="text-search" name="họ tên"  placeholder="Họ tên" class="name">
+                            </form>
+                            <form class="phone-1">
+                              <input type="text" name="phone"     placeholder="+(84) 0123 456" class="phone">
+                            </form>
+                          </div>
+                          <div>
+                            <form class="help2">
+                              <input type="email" name="email" placeholder="Enter email" class="email">
+                            </form>
+                          </div>
+                           <div class="help1">
+                            <form>
+                              <input type="text" name="nội dung"  placeholder="Nội dung liên hệ" class="content">
+                            </form>
+                          </div>
+                    
+                          <div class="help-me-1">
+                              <form>
+                                <input type="file" name="downfile" class="sub-1">
+                              </form>
+                              <form >
+                                 <input type="submit" value="Gửi yêu cầu"  class="sub">
+                              </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="support2">
+                          <img src="https://nhaxinh.com/wp-content/uploads/2021/12/nha-xinh-banner-ban-can-lien-he-091221.jpg" class="sp-image">
+                      </div>
+                </div>
+
+            </div>
+            
+                <div class="see">
+                    <a href="DecorBeauty.html" class="">
+                        <img src="https://nhaxinh.com/wp-content/uploads/2021/11/cua-hang-nha-xinh-191121-1400x690.jpg" alt="" class="see-img"></img>
+                    </a>
+                        <div class="see-text">
+                            <h3>Xem, chạm và cảm nhận</h3>
+                        </div>   
+                        <div class="button-see">
+                                <span>Tìm cửa hàng</span>
+                        </div>
+                </div>
+            
+     </div>
+    </div>
+    </div>
+    <script src="./js/carousel.js">
+    </script>
+    <footer>
+        <div class="footer__content">
+            <div class="rown">
+              <div class="col-1">
+                    <img src="imagenoi/logo.png" alt="" class="col-img"></img>
+              <p class="follow">FOLLOW US</p>
+                <p class="follow-1">
+                <i class="ti-youtube"></i>
+                <i class="ti-instagram"></i>
+                <i class="ti-facebook"></i>
+                </p>
+                <div>    
+                    <span class="col-1__footer"> HỆ THỐNG CỦA HÀNG </span>
+                </div>
+              </div>
+              <div class="col-2">
+                <ul class="new-list">
+                    <li><a href="#" class="nhaxau nhaxau1">
+                        VỀ NHÀ XINH
+                    </a></li>
+                    <li><a href="#" class="nhaxau nhaxau2">Tin tức</a></li>
+                    <li><a href="#" class="nhaxau nhaxau2">Tổng công ty</a></li>
+                    <li><a href="#" class="nhaxau nhaxau2">Tuyển dụng</a></li>
+                    <li><a href="#" class="nhaxau nhaxau2">Thẻ hội viên</a></li>
+                    <li><a href="#" class="nhaxau nhaxau3">Phiếu quà tặng</a></li>
+                    <li><a href="#" class="nhaxau nhaxau3">Giao hàng</a></li>
+                    <li><a href="#" class="nhaxau nhaxau3">Bảo hành</a></li> 
+                    <li><a href="#" class="nhaxau nhaxau3">Bán hàng online</a></li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <div class="nhaxinh">
+                    <ul class="product-idea">
+                        <span class="great-house">CẢM HỨNG #NHAXINH</span>
+                        <li class="toan"><a href="#" class="feelling">Sản phẩm</a></li>
+                        <li class="toan"><a href="#" class="feelling"> Ý tường và cảm hứng </a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="col-4">
+                <ul class="NEWSLETTER">
+                    <li><a href="#" class="nhaxau nhaxau1">
+                        NEWSLETTER
+                    </a></li>
+                    <li><a href="#" class="nhaxau nhaxau2">Hãy để lại email của bạn để nhận được những ý tưởng trang trí mới và những thông tin, ưu đãi từ Nhà Xinh</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <p>© 2021 - Bản quyền của Nhà Xinh</p>
+            <p>Từ năm 1999 - thương hiệu đăng ký số 284074 Cục sở hữu trí tuệ</p>
+        </div>        
+    </footer>  
+</body>
+</html>
